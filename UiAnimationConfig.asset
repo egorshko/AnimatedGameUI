@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888620fd84e58f443814d9a8ad7d98cd, type: 3}
+  m_Name: UiAnimationConfig
+  m_EditorClassIdentifier: 
+  _sequences:
+  - Track: 0
+    Sprites:
+    - {fileID: -793949224, guid: 7510a7b3644befd4d81bd835a37a0641, type: 3}
+    - {fileID: 133094691, guid: 7510a7b3644befd4d81bd835a37a0641, type: 3}
+  - Track: 1
+    Sprites:
+    - {fileID: 1536441502, guid: 7510a7b3644befd4d81bd835a37a0641, type: 3}
+    - {fileID: -1045618583, guid: 7510a7b3644befd4d81bd835a37a0641, type: 3}
+  - Track: 2
+    Sprites:
+    - {fileID: -230907106, guid: 7510a7b3644befd4d81bd835a37a0641, type: 3}
+    - {fileID: 952158219, guid: 7510a7b3644befd4d81bd835a37a0641, type: 3}
+  _playButton: {fileID: 1647808504364099451, guid: fcf4d2dc96a7af04b91535d9392d8d6f, type: 3}
+  _settingsButton: {fileID: 4093638430201865337, guid: 7572d4006e6b7eb42b20ed73b34a40a8, type: 3}
+  _quitButton: {fileID: 7086237098459330370, guid: 14a741952f295df4c870c8e375d16252, type: 3}
