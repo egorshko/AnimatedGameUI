@@ -38,8 +38,6 @@ namespace Assets.Scripts
                     Counter = Sprites.Count;
                     Sleep = true;
                 }
-
-
             }
         }
 
@@ -75,6 +73,7 @@ namespace Assets.Scripts
                 });
             }
         }
+        
         public void Execute(float deltatime)
         {
             foreach (var animation in _activeAnimation)
@@ -86,11 +85,11 @@ namespace Assets.Scripts
                 }
             }
         }
+        
         public void CleanUp()
         {
             _activeAnimation.Clear();
         }
-
     }
 
     
